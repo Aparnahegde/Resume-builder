@@ -1,0 +1,165 @@
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: 1200px; 
+    margin: auto; 
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  
+  #educationField,
+  #projectField {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .resume {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px auto; 
+    background-color: rgba(243, 243, 243, 0.934);
+    width: 100%; 
+    max-width: 800px; 
+    box-sizing: border-box;
+  }
+  
+  .resume li {
+    margin: 10px;
+  }
+  
+  .resume li::first-letter {
+    text-transform: capitalize;
+  }
+  
+  .degItems,
+  .nameItems {
+    font-size: 18px;
+    font-weight: 700;
+    list-style-type: circle;
+    margin-top: 10px;
+  }
+  
+  .links {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .links:hover {
+    color: wheat;
+    text-decoration: none;
+  }
+  
+  .contact {
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px; 
+  }
+  
+  .contact span {
+    margin: 5px;
+  }
+  
+  .underline {
+    width: 100%;
+    background-color: black;
+    height: 2px;
+    margin-bottom: 20px;
+  }
+  
+  #skillsList,
+  #interestList,
+  #achievementList {
+    list-style-type: circle;
+  }
+  
+  #inputFieldsContainer,
+  #inputFieldsContainer1 {
+    margin: 10px 0;
+  }
+  
+  .form {
+    box-shadow: 0 29px 52px rgba(0, 0, 0, 0.4), 0 25px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%; 
+    max-width: 1000px; 
+    margin: 30px auto; 
+  }
+  
+  #btn {
+    width: 100%; 
+    max-width: 200px; 
+    margin: 10px auto; 
+  }
+  
+  .container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cgpaItems,
+  .descItems {
+    margin-bottom: 20px;
+  }
+  
+  #addFieldsBtn2,
+  #addFieldsBtn1,
+  #back {
+    width: 100%; 
+    max-width: 200px; 
+    margin: 10px auto; 
+  }
+  
+  #back,
+  #print {
+    margin: 10px auto; 
+  }
+  
+  .form-group {
+    margin: 10px;
+  }
+  
+  .form-group input {
+    padding: 15px 10px; 
+    margin: 5px 0 15px 0; 
+  }
+  
+  .position {
+    position: relative;
+    top: 0;
+  }
+  
+ 
+  .group-4 {
+    display: flex;
+  }
+  
+  .fromDate,
+  .toDate {
+    cursor: pointer;
+  }
+  
+  @media print{
+   
+    #resume *{
+        visibility: visible;
+    }
+
+    #back,
+    #print,
+    h2{
+        visibility: hidden;
+    } 
+  }

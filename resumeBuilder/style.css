@@ -1,0 +1,155 @@
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 30px;
+}
+#educationField,
+#projectField {
+  list-style: none;
+  padding: 10px;
+}
+/* #educationField li,
+#projectField li {
+  margin: 10px;
+} */
+
+.clgItems {
+}
+
+.resume {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(243, 243, 243, 0.934);
+  /* box-shadow: 0 29px 52px rgba(0, 0, 0, 0.4), 0 25px 16px rgba(0, 0, 0, 0.2); */
+  width: 800px;
+}
+
+.resume li {
+  margin: 10px;
+  /* text-transform:; */
+}
+.resume li::first-letter {
+  text-transform: capitalize;
+}
+
+.degItems,
+.nameItems {
+  font-size: 18px;
+  font-weight: 700;
+  list-style-type: circle;
+  margin-top: 10px;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}
+.links:hover {
+  color: wheat;
+  text-decoration: none;
+}
+.contact {
+  /* background-color: rgb(95, 95, 158); */
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact span {
+  margin: 5px;
+}
+.underline {
+  width: 700px;
+  background-color: black;
+  height:2px;
+  margin-bottom: 20px;
+}
+
+#skillsList,
+#interestList,
+#achievementList {
+  list-style-type: circle;
+}
+
+#inputFieldsContainer,
+#inputFieldsContainer1 {
+  margin: 10px 0;
+}
+
+.form {
+  box-shadow: 0 29px 52px rgba(0, 0, 0, 0.4), 0 25px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px 50px;
+  margin: 30px 10px;
+  width: 1000px;
+}
+
+#btn {
+  width: 200px;
+  margin: 10px;
+}
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cgpaItems,
+.descItems {
+  margin-bottom: 20px;
+}
+
+#addFieldsBtn2,
+#addFieldsBtn1,
+#back {
+  width: 200px;
+}
+
+#back,
+#print {
+  margin: 10px 0;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.form-group input {
+  padding: 30px 10px;
+  margin: 5px 0 30px 0;
+}
+/* .input-fields {
+  padding: 80px;
+} */
+
+.position {
+  position: relative;
+  top: 0;
+}
+@media print {
+  /* Hide buttons */
+  #back,
+  #print,
+  h2 {
+    visibility: hidden;
+  }
+  
+}
+
+.group-4 {
+  display: flex;
+}
+
+.fromDate,
+.toDate {
+  cursor: pointer;
+}
